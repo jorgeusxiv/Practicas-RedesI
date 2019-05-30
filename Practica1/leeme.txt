@@ -1,0 +1,7 @@
+Normativa de entrega cumplida en su totalidad: Realizado: Varias relecturas de las funciones utilizadas y de la funcionalidad del ejercicio demandado.
+Contar paquetes de una traza: Realizado: Se ha comprabado que el número de paquete que muestra nuestro programa coincide con el que indica Wireshark.
+Contar paquetes de la interfaz de red: Realizado. Se ha comprobado que el numero de paquetes capturados coincide. 
+Almacenar en una traza el tráfico capturado en vivo: Realizado: Se ha comprabado que todos los bytes de la traza capturado coincide con lo que indica Wireshark en un conjunto diverso de paquetes.
+Modificar fecha correctamente: Realizado. En la captura de pantalla se muestra como se ha modificado la fecha de captura.
+Imprimir los N primeros bytes de un paquete y validarlo con Wireshark (captura de pantalla): Realizado: Se imprimen correctamente los N primeros bytes.
+Cuestionario "Ejercicios de captura de tráfico": Realizado. Se adjuntan además los ficheros pcap utilizados para responder dicho cuestionario. Sin embargo no hemos podido incluir la captura del apartado 2 ya que ocupaba más de 5MB (limite de subida para la practica)

@@ -1,0 +1,25 @@
+Grupo 1301_P9
+Jose Benjumeda Rubio, Jorge Santisteban Rivas
+Correos: jose.benjumeda@estudiante.uam.es , jorge.santisteban@estudiante.uam.es
+
+
+Resumen de la práctica:
+
+Información de nivel 2: Realizado. Mostramos correctamente la direccion ethernet destino, origen y el tipo ethernet. Ha sido comprobado con WireShark que estos campos coinciden.
+
+Información de nivel 3: Realizado. Mostramos correctamente la version IP, longitud de cabecera, longitud total, posicion, tiempo de vida, protocolo (que ha sido guardado para
+identificar los protocolos UPD y TCP) y ambas direcciones IP. Ha sido comprobado con WireShark que estos campos coinciden.
+
+Campo desplazamiento/offset : Realizado. Hemos guardado el desplazamiento en una variable y despues de haber analizado todos los campos de nivel 3 comprobamos que sea distinto de 0.
+Si ocurre esto el paquete no es el primer fragmento entonces no analizamos el nivel 4.
+
+Información nivel 4: Realizado. En el caso de no ser UDP ni TCP no analizamos nada, en UDP mostramos correctamente el puerto origen, destino y longitud y en TCP mostramos correctamente
+el puerto origen, destino y las banderas SYN y FIN. Ha sido comprobado con WireShark que estos campos coinciden.
+
+Captura desde interfaz de red: Realizado. Hemos modificado el código para que si utilizamos -i nos capture una interfaz utilizando la funcion pcap_open_live. Además hemos ejecutado la
+practica2.c con la interfaz eth0 y WireShark simultaneamente y la informacion de los paquetes coinciden.
+
+No analizar trafico cruzado: Realizado. Hemos ejecutado practica2 desde la interfaz eth0 y solo nos muestran la informacion hasta el nivel 4 de paquetes IP|TCP o IP|UDP.
+
+Filtrado de paquetes realizado: Realizado. Hemos ejecutado los 4 filtros (Ip_origen, IP_destino, Puerto Origen y Puerto destino) y mostramos la informacion de los paquetes siguiendo
+estos filtros.

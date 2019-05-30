@@ -1,0 +1,13 @@
+Grupo 1301_P9
+Jose Benjumeda Rubio, Jorge Santisteban Rivas
+Correos: jose.benjumeda@estudiante.uam.es , jorge.santisteban@estudiante.uam.es
+
+
+ICMP y echo/ping dentro de la red local: Realizado. Hemos sido capaces de que el destino reciba la petición y el emisor sea respondido
+ICMP y echo/ping en un equipo no adyacente: Realizado. Realizamos el envio de paquete a la IP de Google y nos responde con éxito
+Formación correcta de un paquete UDP dentro de la red local:Realizado. Wireshark nos indica que los campos son correctos.
+Envío y Recepción de un paquete UDP en un equipo no adyacente (externo a la LAN): Realizado. Se envía y se recibe correctamente el paquete UDP
+Envío y Recepción de paquetes UDP que hayan sufrido fragmentación: Realizado. Se envía y se recibe correctamente el paquete UDP que requiere fragmentación
+Implementación del bit DF: Realizado. Comprobamos que el bit DF este activado siempre que sea obligatorio.
+Lectura de datos para paquetes UDP desde archivo: Realizado. Comprobamos que se lean los datos de paquetes UDP desde archivo correctamente
+Impresión de tramas enviadas por pantalla en hexadecimal: Realizado. Habilitamos la opción de que se muestre en haxadecimal.
